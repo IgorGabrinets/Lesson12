@@ -1,8 +1,8 @@
-let amgList = ['/AMG/merc-amg-a45.jpg'];
+let amgList = ['merc-amg-a45.jpg', 'merc-amg-c63.jpg', 'mercedes-amg-e63.jpg', 'mercedes-amg-s63.jpg'];
   
   for (let i = 0; i < amgList.length; i++) {
     let amg = document.createElement("div");
-    amg.classList.add("amg" + i);
+    //amg.classList.add("amg" + i);
     amg.innerHTML = amgList[i];
     document.body.append(amg);
   }
@@ -17,3 +17,15 @@ let amgList = ['/AMG/merc-amg-a45.jpg'];
     }
     document.querySelector(".amg" + i).addEventListener("click", Manage);
   }
+
+
+
+
+
+
+
+
+
+
+
+
